@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    padding: 10px;
+    margin: 10px;
+    height: 30vh;
+    border: solid 5px #DCB234;
+    border-radius: 20vh;
+    margin-left: 12vw;
+}
+.home{
+    background-color: black;
+}
+
+#moto {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 4vh;
+}
+
+#name {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 15vh;
+}
+
+.nav{
+    
+    width: 30vw;
+    height: 4vw;
+    margin-bottom: 3vh;
+    border: white solid 3px;
+    
+    justify-content: center;
+    
+    background-color: black;
+    font-size: 5vh;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.nav:hover {
+    transform: scale(1.1);
+}
+
+#signup{
+    /* background-color: rgb(104, 145, 215); */
+    margin-left: 14vw;
+}
+#login{
+    /* background-color: rgb(244, 87, 48); */
+    margin-left: 7vw;
+}
+#board{
+    width: 21vw;
+    height: 40vh;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.eval{
+    background: linear-gradient(45deg, #ffe30b, #cd6008);
+    font-size: 100px;
+    height: 40vh;
+    width: 44vw;
+    border-radius: 40px;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    text-shadow: 4px 4px 5px white;
+}
+.eval:hover {
+    transform: scale(1.1);
+}
+.goal{
+    position: "absolute";
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.footer{
+    background-color: black;
+    border-top: 3px white solid;
+    font-family: 'Roboto Mono', serif;
+    color: white;
+    padding-left: 1vw;
+}
+#navtext{
+    font-family: 'Roboto Mono', serif;
+    font-weight: bold;
+    color: white;
+    font-size: 7vh;
+    margin-right: 10vw;
+}
+/* Ensure the chess board container is relatively positioned */
+.container {
+    position: relative;
+}
+
+

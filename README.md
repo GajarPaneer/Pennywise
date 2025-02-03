@@ -1,7 +1,8 @@
 # PennyWise
 DevSOC Submission
 
-Features to be Added:
+The Future of AI Risk Assessment
+Features of the Project:
 1. Stock Input Selection – Users can input the stocks or company names they are interested in.
 2. Financial Data Extraction – The system fetches past financial performance data for the selected stocks.
 3. Risk Prediction Model – Uses GARCH for volatility modeling and decision trees for risk assessment.

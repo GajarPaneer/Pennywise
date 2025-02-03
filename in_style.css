@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.signup{
+    background-color: black;
+}
+#moto {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 4vh;
+    margin-left: 16vw;
+}
+
+#name {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 15vh;
+    margin-left: 12vw;
+}
+#logo{
+    padding: 10px;
+    margin: 10px;
+    height: 30vh;
+    border: solid 5px #DCB234;
+    border-radius: 20vh;
+    margin-left: 12vw;
+}
+.signbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Images/inbg.png');
+    height: 120vh;
+}
+#shead{
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 15vh;
+}
+.signbox{
+    /* height: 50vh;
+    width: 50vh; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2vh;
+}
+
+#input{
+    width: 20vw;
+    height: 10vh;
+    border-radius: 1vh;
+}
+#subhead{
+    font-family: 'Roboto Mono', serif;
+    font-weight: bold;
+    font-size: 4vh;
+    margin:2vh;
+}
+.submitbutton{
+    margin: 4vh;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 4vh;
+    background-color: rgb(222, 36, 67);
+    color: white;
+    font-family: 'Roboto Mono', serif;
+    font-weight: bold;
+    font-size: 5vh;
+    margin-bottom: 10vh;
+}
+.footer{
+    background-color: black;
+    border-top: 3px white solid;
+    font-family: 'Roboto Mono', serif;
+    color: white;
+    padding-left: 1vw;
+}
+
+
+
